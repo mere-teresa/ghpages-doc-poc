@@ -23,7 +23,7 @@ it](https://github.com/ezsystems/ezpublish-kernel/tree/master/eZ/Publish/Core/Pa
 Usage
 -----
 
-``` {.sourceCode .theme:}
+``` 
 <?php
 namespace Acme\TestBundle\Controller;
 
@@ -69,8 +69,8 @@ class DefaultController extends Controller
 **my\_template.html.twig**
 
 ``` twig
-{.sourceCode .theme:}
-    {% block content %}
+
+    {%block content %}
     <h1>Listing folder content objects: {{ totalFolderCount }} objects found.</h1>
 
     <div>
@@ -89,7 +89,8 @@ class DefaultController extends Controller
     </div>
     {% endif %}
 
-    {% endblock %}
+    {%endblock %}
+
 ```
 
 Icon
