@@ -1,7 +1,5 @@
 How to use a custom controller to display a content or location
-===============================================================
-
-Created and last modified by <jerome.vieilledent@ez.no> on Feb 26, 2015
+===========
 
 Version compatibility
 
@@ -213,7 +211,7 @@ class DefaultController extends Controller
 
 **article\_test.html.twig**
 
-``` {.sourceCode .theme:}
+{% highlight twig  %}
 {% extends noLayout ? viewbaseLayout : "eZDemoBundle::pagelayout.html.twig" %}
 
 {% block content %}
@@ -221,7 +219,7 @@ class DefaultController extends Controller
     <h2>{{ myCustomVariable }}</h2>
     {{ ez_render_field( content, 'body' ) }}
 {% endblock %}
-```
+{% endhighlight %}
 
 ### Using a custom controller to get full control
 
