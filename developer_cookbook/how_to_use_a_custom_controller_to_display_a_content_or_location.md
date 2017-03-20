@@ -280,9 +280,7 @@ class DefaultController extends Controller
 **custom\_controller\_folder.html.twig**
 
 ```twig
-{% extends "eZDemoBundle::pagelayout.html.twig" %}
 
-{% block content %}
 <h1>{{ ez_render_field( content, 'title' ) }}</h1>
     <h1>{{ foo }}</h1>
     <ul>
