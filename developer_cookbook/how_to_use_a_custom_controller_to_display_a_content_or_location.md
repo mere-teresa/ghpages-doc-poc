@@ -209,17 +209,6 @@ class DefaultController extends Controller
 }
 ```
 
-**article\_test.html.twig**
-
-``` 
-{% extends noLayout ? viewbaseLayout : "eZDemoBundle::pagelayout.html.twig" %}
-
-{% block content %}
-    <h1>{{ ez_render_field( content, 'title' ) }}</h1>
-    <h2>{{ myCustomVariable }}</h2>
-    {{ ez_render_field( content, 'body' ) }}
-{% endblock %}
-``` 
 
 ### Using a custom controller to get full control
 
