@@ -279,7 +279,7 @@ class DefaultController extends Controller
 
 **custom\_controller\_folder.html.twig**
 
-``` {.sourceCode .theme:}
+```twig
 {% extends "eZDemoBundle::pagelayout.html.twig" %}
 
 {% block content %}
@@ -290,7 +290,6 @@ class DefaultController extends Controller
         <li>{{ os }}</li>
     {% endfor %}
     </ul>
-{% endblock %}
 ```
 
 Overriding the built-in ViewController
