@@ -211,7 +211,7 @@ class DefaultController extends Controller
 
 **article\_test.html.twig**
 
-{% highlight twig  %}
+``` 
 {% extends noLayout ? viewbaseLayout : "eZDemoBundle::pagelayout.html.twig" %}
 
 {% block content %}
@@ -219,12 +219,14 @@ class DefaultController extends Controller
     <h2>{{ myCustomVariable }}</h2>
     {{ ez_render_field( content, 'body' ) }}
 {% endblock %}
-{% endhighlight %}
+``` 
 
 ### Using a custom controller to get full control
 
 This example shows you how to configure and use your own controller to
 handle a location.
+
+
 
 **ezpublish.yml**
 
