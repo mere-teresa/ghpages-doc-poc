@@ -68,8 +68,9 @@ class DefaultController extends Controller
 
 **my\_template.html.twig**
 
-``` {.sourceCode .theme:}
-{% block content %}
+``` twig
+{.sourceCode .theme:}
+    {% block content %}
     <h1>Listing folder content objects: {{ totalFolderCount }} objects found.</h1>
 
     <div>
@@ -88,7 +89,7 @@ class DefaultController extends Controller
     </div>
     {% endif %}
 
-{% endblock %}
+    {% endblock %}
 ```
 
 Icon
